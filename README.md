@@ -4,15 +4,15 @@ Abstract Icons to be used as a Design File from Figma or an NPM package as web c
 
 ## Homepage
 
-This is the [landing page for Monotone Shapes](https://yashrajbharti.github.io/Monotone-Shapes/)
+[Landing page for Monotone Shapes](https://yashrajbharti.github.io/Monotone-Shapes/)
 
 ## Figma Abstract Shapes Icon Pack
 
-This is the [Figma link for Monotone Shapes](https://www.figma.com/community/file/1433176090789013552/monotone-shapes).
+[Figma link for Monotone Shapes](https://www.figma.com/community/file/1433176090789013552/monotone-shapes)
 
 ## NPM link
 
-This is the [NPM link for Monotone Shapes](https://www.npmjs.com/package/monotone-shapes)
+[NPM link for Monotone Shapes](https://www.npmjs.com/package/monotone-shapes)
 
 ## Features:
 
@@ -29,7 +29,7 @@ npm install monotone-shapes
 ```
 
 ```html
-<script src="https://unpkg.com/monotone-shapes@1.0.0/src/app.js"></script>
+<script src="https://unpkg.com/monotone-shapes@1.0.4/src/app.js"></script>
 ```
 
 then import using:
