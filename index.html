@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <meta name="description"
         content="Abstract Icons to be used as a Design File from Figma or an NPM package as web components.">
-    <meta property="og:title" content="Monotone-Shapes">
+    <meta property="og:title" content="Monotone Shapes">
     <meta property="og:description"
         content="Monotone Abstract Icons to be used as a Design File from Figma or an NPM package as web components. ">
     <meta property="og:image"
@@ -21,6 +21,8 @@
 </head>
 
 <body>
+    <h1>Monotone <span>Shapes</span></h1>
+    <br>
     <div class="container">
         <monotone-shape shape-id="" text=""></monotone-shape>
         <monotone-shape shape-id="" text=""></monotone-shape>
@@ -39,7 +41,26 @@
         <monotone-shape shape-id="" text=""></monotone-shape>
         <monotone-shape shape-id="" text=""></monotone-shape>
     </div>
+    <br>
+    <div class="config-container">
+        <label for="config">Enter a shape-id (between 1 and 24) or just any text to generate SVG</label>
+        <input type="text" name="" id="config">
+        <br>
+        <br>
+        <br>
+        <monotone-shape shape-id="1" text="" class="shape"></monotone-shape>
+    </div>
     <script src="./src/app.js"></script>
+    <script>
+        const input = document.querySelector("input");
+        const shape = document.querySelector(".shape")
+        input.addEventListener("input", () => {
+            if (+input.value >= 1 && +input.value <= 24)
+                shape.setAttribute("shape-id", input.value)
+            else
+                shape.setAttribute("text", input.value)
+        })
+    </script>
 </body>
 
 </html>
