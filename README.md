@@ -1,7 +1,5 @@
 # Monotone-Shapes
 
-![shapes](./assets/Monotone%20Shapes.png)
-
 Abstract Icons to be used as a Design File from Figma or an NPM package as web components. ⬛️⬜️
 
 ## Figma Abstract Shapes Icon Pack
@@ -49,6 +47,12 @@ Simply use as web components:
 It takes in the shape number or any string as an input, which then shows up the given shape as an svg. If shape id (any number between 1 to 24 is given), it will show the SVG at that number. For string input in text attribute, it will generate a value from the given text and always show the same SVG for the same text.
 
 > ❗ Note: If both shape-id and text are given, text has the preference.
+
+## Shapes:
+
+We offer 24 shapes at the moment:
+
+![shapes](https://raw.githubusercontent.com/yashrajbharti/Monotone-Shapes/main/assets/Monotone%20Shapes.png)
 
 ## Contributing
 
