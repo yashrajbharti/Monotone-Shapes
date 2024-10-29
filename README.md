@@ -1,10 +1,16 @@
 # Monotone-Shapes
 
+![shapes](./assets/Monotone%20Shapes.png)
+
 Abstract Icons to be used as a Design File from Figma or an NPM package as web components. ⬛️⬜️
 
 ## Figma Abstract Shapes Icon Pack
 
 This is the [Figma link for Monotone Shapes](https://www.figma.com/community/file/1433176090789013552/monotone-shapes).
+
+## NPM link
+
+This is the [NPM link for Monotone Shapes](https://www.npmjs.com/package/monotone-shapes)
 
 ## Features:
 
