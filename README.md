@@ -2,6 +2,10 @@
 
 Abstract Icons to be used as a Design File from Figma or an NPM package as web components. ⬛️⬜️
 
+## Homepage
+
+This is the [landing page for Monotone Shapes](https://yashrajbharti.github.io/Monotone-Shapes/)
+
 ## Figma Abstract Shapes Icon Pack
 
 This is the [Figma link for Monotone Shapes](https://www.figma.com/community/file/1433176090789013552/monotone-shapes).
@@ -50,7 +54,7 @@ It takes in the shape number or any string as an input, which then shows up the 
 
 ## Shapes:
 
-We offer 24 shapes at the moment:
+Just 24 shapes, keeping it unique, lightweight and simple:
 
 ![shapes](https://raw.githubusercontent.com/yashrajbharti/Monotone-Shapes/main/assets/Monotone%20Shapes.png)
 

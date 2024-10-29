@@ -1,10 +1,14 @@
 {
   "name": "monotone-shapes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Abstract Icons to be used as a Design File from Figma or an NPM package as web components. ⬛️⬜️",
   "main": "./src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashrajbharti/monotone-shapes.git"
   },
   "keywords": [
     "shapes",
@@ -13,5 +17,9 @@
     "design"
   ],
   "author": "Yash Raj Bharti",
-  "license": "MIT"
+  "license": "MIT LICENSE",
+  "bugs": {
+    "url": "https://github.com/yashrajbharti/monotone-shapes/issues"
+  },
+  "homepage": "https://github.com/yashrajbharti/monotone-shapes#readme"
 }
