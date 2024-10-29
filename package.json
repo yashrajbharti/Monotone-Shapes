@@ -1,0 +1,17 @@
+{
+  "name": "monotone-shapes",
+  "version": "1.0.0",
+  "description": "Abstract Icons to be used as a Design File from Figma or an NPM package as web components. ⬛️⬜️",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shapes",
+    "abstract",
+    "web components",
+    "design"
+  ],
+  "author": "Yash Raj Bharti",
+  "license": "MIT"
+}
