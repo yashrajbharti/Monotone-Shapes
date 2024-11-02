@@ -45,8 +45,8 @@ class MonotoneShape extends HTMLElement {
   }
 
   getSVGByShapeId(shapeId) {
-      const width=this.getAttribute("width")??24;
-      const height=this.getAttribute("height")??24;
+      const width=this.getAttribute("width") ?? 24;
+      const height=this.getAttribute("height") ?? 24;
     const svgs = {
       1: `<svg  width="${width}" height="${height}" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="9.125" y="7.95834" width="11.875" height="11.0833" rx="1" fill="#2C2C2D" fill-opacity="0.82"/>
