@@ -1,6 +1,6 @@
 {
   "name": "monotone-shapes",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Abstract Icons to be used as a Design File from Figma or an NPM package as web components. ⬛️⬜️",
   "main": "./src/app.js",
   "scripts": {
