@@ -21,38 +21,37 @@
 </head>
 
 <body>
-    <div class="container-big">
-    <h1>MONOTONE <span>SHAPES</span></h1>
-    <br>
-    <div class="container">
-        <monotone-shape shape-id="" text=""></monotone-shape>
-        <monotone-shape shape-id="" text=""></monotone-shape>
-        <monotone-shape shape-id="" text=""></monotone-shape>
-        <monotone-shape shape-id="" text=""></monotone-shape>
-        <monotone-shape shape-id="" text=""></monotone-shape>
-        <monotone-shape shape-id="" text=""></monotone-shape>
-        <monotone-shape shape-id="" text=""></monotone-shape>
-        <monotone-shape shape-id="" text=""></monotone-shape>
-        <monotone-shape shape-id="" text=""></monotone-shape>
-        <monotone-shape shape-id="" text=""></monotone-shape>
-        <monotone-shape shape-id="" text=""></monotone-shape>
-        <monotone-shape shape-id="" text=""></monotone-shape>
-        <monotone-shape shape-id="" text=""></monotone-shape>
-        <monotone-shape shape-id="" text=""></monotone-shape>
-        <monotone-shape shape-id="" text=""></monotone-shape>
-        <monotone-shape shape-id="" text=""></monotone-shape>
-    </div>
-    <br>
-    <div class="config-container">
-        <label style="font-family:'Roboto';" for="config">Enter a shape-id (between 1 and 24) or just any text to generate SVG</label>
-        <input type="text" name="" id="config">
-        <monotone-shape shape-id="1" text="" class="shape" height="120px" width="120px"></monotone-shape>
-    </div>
-</div>
-    <img src="assets/Gradient.png" class="bottom-image">
-    <a href="https://github.com/yashrajbharti/Monotone-Shapes" target="_blank">
-        <img src="./assets/Ribbon.svg" alt="Fork me on Github" srcset="">
-    </a>
+    <main>
+        <h1><span>Monotone</span> Shapes</h1>
+        <br>
+        <div class="container">
+            <monotone-shape shape-id="" text=""></monotone-shape>
+            <monotone-shape shape-id="" text=""></monotone-shape>
+            <monotone-shape shape-id="" text=""></monotone-shape>
+            <monotone-shape shape-id="" text=""></monotone-shape>
+            <monotone-shape shape-id="" text=""></monotone-shape>
+            <monotone-shape shape-id="" text=""></monotone-shape>
+            <monotone-shape shape-id="" text=""></monotone-shape>
+            <monotone-shape shape-id="" text=""></monotone-shape>
+            <monotone-shape shape-id="" text=""></monotone-shape>
+            <monotone-shape shape-id="" text=""></monotone-shape>
+            <monotone-shape shape-id="" text=""></monotone-shape>
+            <monotone-shape shape-id="" text=""></monotone-shape>
+            <monotone-shape shape-id="" text=""></monotone-shape>
+            <monotone-shape shape-id="" text=""></monotone-shape>
+            <monotone-shape shape-id="" text=""></monotone-shape>
+            <monotone-shape shape-id="" text=""></monotone-shape>
+        </div>
+        <br>
+        <div class="config-container">
+            <label for="config">Enter a shape-id (between 1 and 24) or just any text to generate SVG</label>
+            <input type="text" name="" id="config">
+            <monotone-shape shape-id="1" text="" class="shape" height="120px" width="120px"></monotone-shape>
+        </div>
+        <a href="https://github.com/yashrajbharti/Monotone-Shapes" target="_blank">
+            <img src="./assets/Ribbon.svg" alt="Fork me on Github" srcset="">
+        </a>
+    </main>
     <script src="./src/app.js"></script>
     <script>
         const input = document.querySelector("input");
