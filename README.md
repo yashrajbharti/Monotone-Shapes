@@ -29,7 +29,7 @@ npm install monotone-shapes
 ```
 
 ```html
-<script src="https://unpkg.com/monotone-shapes@1.0.4/src/app.js"></script>
+<script src="https://unpkg.com/monotone-shapes@1.0.5/src/app.js"></script>
 ```
 
 then import using:
@@ -46,11 +46,27 @@ Simply use as web components:
 <monotone-shape shape-id="" text=""></monotone-shape>
 <monotone-shape shape-id="1" text=""></monotone-shape>
 <monotone-shape shape-id="" text="Some cool text"></monotone-shape>
+<monotone-shape shape-id="1" text="" height="120px" width="120px"></monotone-shape>
 ```
 
-It takes in the shape number or any string as an input, which then shows up the given shape as an svg. If shape id (any number between 1 to 24 is given), it will show the SVG at that number. For string input in text attribute, it will generate a value from the given text and always show the same SVG for the same text.
+It takes in the shape number or any string as input, which then shows the given shape as an SVG. If a shape id (any number between 1 to 24) is given, it will show the SVG for that shape. For string input in the `text` attribute, it will generate a unique SVG based on the text.
 
-> ❗ Note: If both shape-id and text are given, text has the preference.
+> ❗ Note: If both `shape-id` and `text` are given, `text` takes priority.
+
+### Attributes:
+
+| Attribute   | Description                                                                 |
+|-------------|-----------------------------------------------------------------------------|
+| `shape-id`  | A number between 1 and 24 to specify a shape. This is an optional attribute. |
+| `text`      | Any string of text that will be used to generate a random SVG. If provided, it takes priority over `shape-id`. |
+| `height`    | Optional. Sets the height of the shape. Default is `24px`. Example: `height="120px"`. |
+| `width`     | Optional. Sets the width of the shape. Default is `24px`. Example: `width="120px"`. |
+
+For example:
+
+```html
+<monotone-shape shape-id="1" text="Some cool text" height="120px" width="120px"></monotone-shape>
+```
 
 ## Shapes:
 
