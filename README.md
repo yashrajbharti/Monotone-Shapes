@@ -51,7 +51,8 @@ Simply use as web components:
 
 It takes in the shape number or any string as input, which then shows the given shape as an SVG. If a shape id (any number between 1 to 24) is given, it will show the SVG for that shape. For string input in the `text` attribute, it will generate a unique SVG based on the text.
 
-> ❗ Note: If both `shape-id` and `text` are given, `text` takes priority.
+> [!CAUTION]
+> Note: If both `shape-id` and `text` are given, `text` takes priority.
 
 ### Attributes:
 
